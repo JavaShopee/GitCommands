@@ -36,3 +36,9 @@ C:\Users\sachi\Desktop\sampple_folder>git log
 
 C:\Users\sachi\Desktop\sampple_folder>git push Git_Commands master
 
+
+So, to get updated readme.txt reflected on github :
+git add readme.txt
+git commit
+git push Git_Commands master
+
