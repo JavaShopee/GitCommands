@@ -1,3 +1,6 @@
+******************Commands********************
+
+
 C:\Users\sachi\Desktop\sampple_folder>git status
 
 checks for :
@@ -20,3 +23,16 @@ Add some text
 C:\Users\sachi\Desktop\sampple_folder>git status 
 
 You will see "Unmodified" file readme.txt and "Untracked" file test.txt
+
+C:\Users\sachi\Desktop\sampple_folder>git add readme.txt
+
+C:\Users\sachi\Desktop\sampple_folder>git commit
+
+Now readme.txt will not appear in "git status" command
+
+
+See all previous commits
+C:\Users\sachi\Desktop\sampple_folder>git log
+
+C:\Users\sachi\Desktop\sampple_folder>git push Git_Commands master
+
