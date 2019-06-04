@@ -40,6 +40,15 @@ C:\Users\sachi\Desktop\sampple_folder>git push Git_Commands master
 So, to get updated readme.txt reflected on github :
 git add readme.txt
 git commit
+
+Add Remote repo to Git
+git remote add GitComm https://github.com/JavaShopee/GitCommands.git
+git push Git_Commands master
+
+
+So, to get updated readme.txt reflected on github :
+git add readme.txt
+git commit
 git push Git_Commands master
 
 here Git_Commands is the repository name...
@@ -57,4 +66,11 @@ C:\Users\sachi\Desktop\sampple_folder>git remote add origin https://github.com/J
 
 C:\Users\sachi\Desktop\sampple_folder>git remote
 origin
-Test..push
+
+
+Now Edit on github and then git pull
+
+git pull = git fetch + git rebase  
+
+Test Push
+
