@@ -42,3 +42,19 @@ git add readme.txt
 git commit
 git push Git_Commands master
 
+here Git_Commands is the repository name...
+
+
+C:\Users\sachi\Desktop\sampple_folder>git remote
+Git_Commands  >> that's the repo
+
+
+C:\Users\sachi\Desktop\sampple_folder>git remote remove Git_Commands
+
+C:\Users\sachi\Desktop\sampple_folder>git remote
+
+C:\Users\sachi\Desktop\sampple_folder>git remote add origin https://github.com/JavaShopee/GitCommands.git
+
+C:\Users\sachi\Desktop\sampple_folder>git remote
+origin
+Test..push
