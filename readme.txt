@@ -74,3 +74,21 @@ git pull = git fetch + git rebase
 
 Test Push
 
+
+
+
+***********************Git Commands Continued********************************
+
+Unstage from Staging to working file
+git reset HEAD first.txt
+
+
+Move changes from repo to working file
+git checkout (commit number) -- filename.txt
+
+When the changes are made to file, not staged or commited
+Then we can extract last good copy from Repo 
+
+
+git checkout -- filename.txt
+
