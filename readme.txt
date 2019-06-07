@@ -181,7 +181,7 @@ Pushing  Fetch
 git push -u logindemo master
 
 
-
-
+Git Ignore
+touch .gitignore  >> git init(and then add files to .gitignore to ignore the files)
 
 
