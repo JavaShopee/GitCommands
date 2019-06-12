@@ -185,3 +185,7 @@ Git Ignore
 touch .gitignore  >> git init(and then add files to .gitignore to ignore the files)
 
 
+
+You can add global styles to this file, and also import other style files : styles.css
+otherwise it will be applied to individual compomnet .css
+
