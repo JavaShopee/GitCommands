@@ -189,3 +189,34 @@ touch .gitignore  >> git init(and then add files to .gitignore to ignore the fil
 You can add global styles to this file, and also import other style files : styles.css
 otherwise it will be applied to individual compomnet .css
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**********************************************************Dev Ops***************************************************************
+Congigure New User in git
+>git config --global user.name "Arora, Sachin"
+>git config --global user.email "sacharora99@gmail.com"
+
+Verify User 
+>git config --list
+
+>git help 
+>git help add
+>git help commit
+
+
+
+
+
