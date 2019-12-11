@@ -217,6 +217,34 @@ Verify User
 >git help commit
 
 
+Initialize direcotory as Git Project
+>>git init
+show hidden files
+>>ls -la
+>>git status
+>>git add . OR git add Sample.txt
+>>git commit -m "First Commit"
+>> git log --author="Arora, Sachin"
+
+Added Few New files in Dir//Check git logs from particular user
+>>git status
+>>git add .
+>>git commit . -m "Third Commit with modified files"
+>>git log --author="Arora, Sachin"
+>>git log --author="Arora, Sachin"
+>>git commit -m "Fifth Commit"
+
+Working Copy >> Staging Arae >> Repository
+Set path for notepad++ in env var
+>>notepad++ .bash_profile
+>> git config --global core.editor "\"C:\Program Files (x86)\Notepad++\notepad++.exe\""
+>> git config --global --list
+>> notepad++
+
+
+
+
+
 
 
 
