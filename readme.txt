@@ -237,9 +237,13 @@ Added Few New files in Dir//Check git logs from particular user
 Working Copy >> Staging Arae >> Repository
 Set path for notepad++ in env var
 >>notepad++ .bash_profile
+alias npp='notepad++.exe --multiInst --nosession'
 >> git config --global core.editor "\"C:\Program Files (x86)\Notepad++\notepad++.exe\""
 >> git config --global --list
 >> notepad++
+
+
+>>git diff
 
 
 
