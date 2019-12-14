@@ -338,6 +338,25 @@ Comparision b/w two commits
 Comparision b/w last and last to last commit
 >git diff HEAD HEAD^
 
+List All Branch
+git branch -a
+Switch Branch
+git checkout newbranch
+Rename Branch
+git branch -m oldname newname
+Delete Branch
+git branch -d branchname
+
+
+Problem with merge :
+Merging create extra commits every time
+If master branch is very active , this will incorporate feature branch history in master branch causing it difficult to 
+understand the histroty for developers
+
+Git Rebase:
+1. Much cleaner project history 
+2. eliminates unnecessary projetc commits
+
 
 
 
