@@ -251,8 +251,13 @@ If the file is not there in local rep but there in Working Area(not fired "git a
 not work in that case. Files only added in working rep once will be visible through this command.
 
 IF there is no file in working area, it will show the diff b/w staging area and working area
-
 Differece between the files in working dir and local rep
+>>git diff --staged
+
+Above is used to find difference between working area and stage area
+Remove file from working area
+git rm Third.txt
+
 
 
 
