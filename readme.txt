@@ -259,6 +259,89 @@ Remove file from working area
 git rm Third.txt
 
 
+Branching in git >> Whenevr a new brach is created from existing brach, all files will be auto copied.
+It's just add one more pointer to new file without consuming extra space
+
+>>git branch (show branches)
+>>git branch develop (create new branch)
+>>git checkout master (switch branch)
+>>git push origin branchname
+checkout to master branch
+>>git merge develop
+>>git push origin master
+>>git checkout SecBranch
+>>git pull origin master(pull in dev local)
+>>git push origin develop(push in dev remote)
+
+Move from Staging to working area :
+>>git reset HEAD filename
+from local repo to working area
+>>git reset HEAD~ (revert the last commit)
+
+Remove .git dir
+>>rm -rf .git
+
+Fork someone else repo to your git accout
+
+>>touch TestFile.txt
+>>echo "today's news" > TestFile.txt
+
+Always pull before Push
+>>git pull origin master
+>>git push origin master
+
+
+>>git checkout -- TestFile.txt
+
+Two uses of checkout command:
+1. to switch b/w branches
+2. to undo changes in working dir
+
+Remove and then Restore the file in git
+>>git rm TestFile.txt
+>>git status
+>>git reset HEAD TestFile.txt
+>>git checkout -- TestFile.txt
+
+
+Recursively force remove(a folder) 
+>> git rm -rf level1
+
+Move and rename
+>> git rm file3.txt level2
+>>git log --oneline --graph --decorate
+>>git log --since="2 days ago"
+>>git log --  TestFile.txt
+>> git show commit >> commit detail
+
+Git Alias
+>git config --global alias.history "log --oneline --graph --decorate"
+>>vi ~/.gitconfig
+
+
+>>vi .gitignore
+>>*.log
+
+
+Comparision b/w working dir and staging area
+>git diff
+
+Comparision b/w working dir and repo(last commit)
+>git diff HEAD
+
+Comparision b/w Staging Aread and repo(last commit)
+>git diff --staged HEAD
+
+Comparision b/w two commits
+>git diff commithash1 commithash2
+
+Comparision b/w last and last to last commit
+>git diff HEAD HEAD^
+
+
+
+
+
 
 
 
