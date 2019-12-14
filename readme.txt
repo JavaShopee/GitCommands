@@ -244,6 +244,15 @@ alias npp='notepad++.exe --multiInst --nosession'
 
 
 >>git diff
+Working Dir >> Staging Area >> Local Rep
+Files once commited are there in local rep
+
+If the file is not there in local rep but there in Working Area(not fired "git add filename.txt" and "git commit") ,this command will 
+not work in that case. Files only added in working rep once will be visible through this command.
+
+IF there is no file in working area, it will show the diff b/w staging area and working area
+
+Differece between the files in working dir and local rep
 
 
 
